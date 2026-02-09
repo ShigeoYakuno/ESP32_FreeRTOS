@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"enet_test_task.h": "c",
+			"isr_func.h": "c"
+		}
+	}
+}

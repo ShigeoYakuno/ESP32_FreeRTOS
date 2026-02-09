@@ -1,0 +1,17 @@
+🔧 開発環境概要
+
+開発ボード:
+ESP32 DevKitC (ESP32-WROOM-32)
+
+開発環境:
+PlatformIO（VSCode統合）
+platform = espressif32
+board = esp32dev
+framework = espidf
+
+ESP-IDF バージョン: 5.5.0
+FreeRTOS: ESP-IDFに内蔵のマルチタスクRTOSを使用
+ツールチェーン:
+xtensa-esp-elf @ 14.2.0
+esptool.py 4.9.0
+

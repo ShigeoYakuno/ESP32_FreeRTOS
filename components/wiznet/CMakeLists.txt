@@ -1,0 +1,13 @@
+idf_component_register(
+    SRCS
+        "wizchip_conf.c"
+        "wizchip_port.c"
+        "socket.c"
+        "w5500/w5500.c"
+    INCLUDE_DIRS 
+        "."
+        "w5500"
+    REQUIRES
+        driver
+        spi_flash
+)
